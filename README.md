@@ -6,7 +6,7 @@ Este projeto é o protótipo de um sistema que simula o monitoramento de berço 
 
 - **Monitoramento em Tempo Real:** O sistema detecta movimentos do bebê por meio de um sensor de pressão simulado.
 - **Alertas Visuais e Sonoros:** Quando o movimento é detectado, o sistema aciona um LED vermelho e um buzzer para alertar os responsáveis.
-- **Display OLED:** Exibe mensagens de status, como "Bebe Movimentando!" e "Bebe Dormindo!", para fornecer informações visuais.
+- **Display OLED:** Exibe mensagens de status, como "Bebê Movimentando!" e "Bebê Dormindo!", para fornecer informações visuais.
 - **Simulação de Sensor de Pressão:** O valor do sensor de pressão é gerado aleatoriamente a cada 5 segundos para simular a detecção de movimento.
 
 ## Componentes Utilizados
@@ -21,5 +21,5 @@ Este projeto é o protótipo de um sistema que simula o monitoramento de berço 
 ## Como Funciona
 
 1. **Detecção de Movimento:** O sensor de pressão simulado gera valores aleatórios a cada 5 segundos. Se o valor exceder um limiar pré-definido, o sistema detecta movimento.
-2. **Alertas:** Quando o movimento é detectado, o LED vermelho pisca e o buzzer emite um som. O display OLED exibe a mensagem "Bebe Movimentando!".
+2. **Alertas:** Quando o movimento é detectado, o LED vermelho pisca e o buzzer emite um som. O display OLED exibe a mensagem "Bebê Movimentando!".
 3. **Sem Movimento:** Se nenhum movimento for detectado, o display OLED exibe "Bebe Dormindo!" e os alertas são desativados.
